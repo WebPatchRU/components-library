@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import LibNavPage from '@/projectsPages/LibNavPage'
+// import components
 import HeaderNavPage from '@/componentsPages/HeaderNavPage'
 import AsideBarPage from '@/componentsPages/AsideBarPage'
 import ChipsPage from '@/componentsPages/ChipsPage'
+
+// import customPages
+import TestPage from '@/customPages/TestPage'
 
 Vue.use(Router)
 
@@ -28,6 +32,11 @@ export default new Router({
       path: '/chip-item',
       name: 'chip-items',
       component: ChipsPage
+    },
+    {
+      path: '/custom-page',
+      name: 'custom-page',
+      component: TestPage
     }
   ]
 })
