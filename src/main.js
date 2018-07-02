@@ -14,7 +14,6 @@ Vue.component('header-nav', HeaderNav)
 Vue.component('aside-bar', AsideBar)
 Vue.component('chip-item', Chip)
 
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

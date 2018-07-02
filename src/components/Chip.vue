@@ -1,3 +1,4 @@
+
 <template>
 <div class="chip">
   <div class="chip--avatar">
@@ -9,9 +10,9 @@
 </template>
 
 <script>
-    export default {
-        name: "chip"
-    }
+export default {
+  name: 'chip'
+}
 </script>
 
 <style lang="sass">
