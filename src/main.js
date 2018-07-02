@@ -7,10 +7,12 @@ import router from './router'
 // import components
 import HeaderNav from '@/components/HeaderNav'
 import AsideBar from '@/components/AsideBar'
+import Chips from '@/components/Chips'
 
 // registration components
 Vue.component('header-nav', HeaderNav)
 Vue.component('aside-bar', AsideBar)
+Vue.component('chip-item', Chips)
 
 
 Vue.config.productionTip = false

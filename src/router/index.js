@@ -4,6 +4,7 @@ import LibNavPage from '@/projectsPages/LibNavPage'
 // import components
 import HeaderNavPage from '@/componentsPages/HeaderNavPage'
 import AsideBarPage from '@/componentsPages/AsideBarPage'
+import ChipsPage from '@/componentsPages/ChipsPage'
 
 // import customPages
 import TestPage from '@/customPages/TestPage'
@@ -26,6 +27,11 @@ export default new Router({
       path: '/aside-bar',
       name: 'aside-bar',
       component: AsideBarPage
+    },
+    {
+      path: '/chip-item',
+      name: 'chip-items',
+      component: ChipsPage
     },
     {
       path: '/custom-page',
