@@ -27,39 +27,42 @@ export default {
     overflow: hidden
     background: #f9f9f9
     box-shadow: 0 0 1px rgba(0,0,0,.25)
-    height: 28px
+    height: 30px
     display: inline-block
     transition: box-shadow 150ms ease-in-out
     cursor: default
-    //&:hover
-    //  box-shadow: 0px 5px 20px rgba(0,0,0,.25)
+    &:hover
+      // background-color: #f0f0f0
+      // box-shadow: 0px 5px 20px rgba(0,0,0,.25)
     &--avatar
       float: left
-      width:  28px
-      height: 28px
-      margin-right: 10px
+      width:  30px
+      height: 30px
+      border-radius: 20px
       overflow: hidden
       &--data
-        display: inline-block
-        width:  28px
-        height: 28px
+        display: block
+        width:  30px
+        height: 30px
     &--title
-      display: inline-block
+      float: left
       font-size: 14px
-      line-height: 27px
+      line-height: 30px
       color: #666666
+      margin-left: 10px
     &--control
       cursor: pointer
-      display: inline-block
+      float: left
       border-radius: 30px
-      margin: 4px 4px 4px 10px
+      margin: 5px 5px 5px 10px
       height: 20px
       width: 20px
     &--close
       text-align: center
-      line-height: 21px
+      line-height: 22px
       font-size: 17px
       color: #999999
+      background-color: rgba(0,0,0,.05)
       &:hover
         background-color: rgba(0,0,0,.1)
 
