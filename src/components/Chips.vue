@@ -1,6 +1,6 @@
 <template>
 <div class="chip">
-  <h1>Chip items for all views</h1>
+  <h1>Chip items for all views, NEW!!!!</h1>
 </div>
 </template>
 
