@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import LibNavPage from '@/projectsPages/LibNavPage'
 import HeaderNavPage from '@/componentsPages/HeaderNavPage'
 import AsideBarPage from '@/componentsPages/AsideBarPage'
+import ChipsPage from '@/componentsPages/ChipsPage'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/aside-bar',
       name: 'aside-bar',
       component: AsideBarPage
+    },
+    {
+      path: '/chip-item',
+      name: 'chip-items',
+      component: ChipsPage
     }
   ]
 })
