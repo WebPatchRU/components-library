@@ -1,11 +1,11 @@
 <template>
-	<aside-bar></aside-bar>
+  <aside-bar></aside-bar>
 </template>
 
 <script>
-	export default {
-		name: "AsideBarPage"
-	}
+export default {
+  name: 'AsideBarPage'
+}
 </script>
 
 <style scoped>
