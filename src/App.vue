@@ -10,6 +10,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="sass">
+  body
+    padding: 10px
+    margin: 0
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
 </style>
